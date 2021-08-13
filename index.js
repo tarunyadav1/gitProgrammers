@@ -12,3 +12,15 @@ function removeVowels(str) {
 }
 
 console.log(removeVowels("hello"));
+
+// write a function to print a a number of asterisks equal to the length of the string and then console the result
+
+function printAsterisks(str) {
+  var asterisks = "";
+  for (var i = 0; i < str.length; i++) {
+    asterisks += "*";
+  }
+  return asterisks;
+}
+
+console.log(printAsterisks("hello"));
